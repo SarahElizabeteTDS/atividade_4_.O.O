@@ -13,10 +13,10 @@ function verificaPrimo($num)
         {
             echo $a."-";
         }
-            
+        print "\n";
         die;
     }elseif($num < 2){
-        print "Número deve ser maior que 2";
+        print "Número deve ser maior que 2\n";
         die;
     }
     
